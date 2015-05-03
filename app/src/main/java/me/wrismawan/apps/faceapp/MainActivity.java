@@ -31,7 +31,7 @@ public class MainActivity extends ActionBarActivity {
     private final int PICK_IMAGE = 1;
     private ProgressDialog detectionProgressDialog;
 
-    private FaceServiceClient faceServiceClient = new FaceServiceClient("a044342ec75c4922866f11ca59ef7161");
+    private FaceServiceClient faceServiceClient = new FaceServiceClient("your subsciption key");
     private Bitmap bitmap;
 
     @Override
